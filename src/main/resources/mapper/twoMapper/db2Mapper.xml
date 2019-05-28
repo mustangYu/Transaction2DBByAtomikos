@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="comTransDbMustang.dbMapper.mapper2.DbMapper2">
+    <insert id="insertInfo1" parameterType="comTransDbMustang.dbModel.User">
+    insert into db2_user (name) values (#{name,jdbcType=VARCHAR})
+</insert>
+</mapper>
